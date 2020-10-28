@@ -1,0 +1,57 @@
+h1 span {
+  color: rgb(65, 159, 248);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #283645;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+li a:hover {
+  background-color: #1490d7;
+}
+
+.message {
+  color: white;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.good {
+  background-color: rgb(131, 245, 155);
+}
+
+.warning {
+  background-color: rgb(250, 170, 140);
+}
+
+.alert {
+  background-color: rgb(250, 93, 127);
+}
+
+.profil{
+  float: left;
+}
+
+.clearB{
+  clear: both;
+}
